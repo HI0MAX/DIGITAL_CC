@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #e4e9f7;
+}
+
+.box-001 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+
+.box-002 {
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+  width: 700px;
+  margin: 10px 40px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  /*font-family: 'Poppins', sans-serif;  Add this line */
+}
+
+
+
+
+
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+}
+
+.box {
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.form-box {
+  width: 700px;
+  margin: auto; /* Center the form-box horizontally */
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+
+
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info p {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
